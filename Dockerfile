@@ -4,7 +4,7 @@ FROM golang:${GOLANG_VERSION}
 
 LABEL maintainer="Tony Huynh <mr.tonyhuynh@gmail.com>"
 
-ENV VIPSVERSION="8.10.2"
+ARG VIPSVERSION="8.10.2"
 
 # build-essential => build-base
 # pkg-config => pkgconfig
